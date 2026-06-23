@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit temporary and environment files
+.streamlit/config.toml.bak
+temp/
+*.docx.tmp
+*.pdf.tmp
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+dist/
+build/
+*.egg-info/
