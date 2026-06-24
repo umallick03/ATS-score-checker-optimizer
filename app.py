@@ -528,3 +528,13 @@ elif st.session_state.step == "dashboard":
         st.session_state.step = "upload"
         st.session_state.parsed_data = None
         st.rerun()
+
+# Signature Footer
+st.markdown(
+    """
+    <div style='text-align: center; color: #555555; font-size: 11px; margin-top: 40px; margin-bottom: 20px; letter-spacing: 0.05em;'>
+        @Created by Ujjal Mallick.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
